@@ -1,0 +1,22 @@
+{
+  "name": "barcode-app",
+  "version": "0.0.0",
+  "description": "Scanning them barcodes",
+  "main": "barcode.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rit-sse-mycroft/app-barcodes"
+  },
+  "author": "Society of Software Engineers",
+  "license": "BSD",
+  "dependencies": {
+    "uuid": "~1.4.1",
+    "winston": "~0.7.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
