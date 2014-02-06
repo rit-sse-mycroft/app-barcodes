@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "name": "barcode",
+  "displayName": "The Barcode scanner",
+  "instanceId": "barcode1",
+  "capabilities": {
+    "scan": "0.0.1"
+  },
+  "API": 0,
+  "description": "Scans them barcodes",
+  "dependencies": {}
+}
