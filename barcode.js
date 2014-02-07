@@ -14,10 +14,10 @@ function promptMessage() {
   prompt.get(['barcode'], function(err, result) {
     if (!err) {
       var message = {
-        spoken_text: result.text
+        spoken_text: result.barcode
       };
       // Broadcast the input.
-      client.broadcast({barcode: result.text});
+      client.broadcast({barcode: result.barcode});
       promptMessage();
     }
   });
