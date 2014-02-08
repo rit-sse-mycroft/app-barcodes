@@ -1,4 +1,4 @@
-var mycroft = require('./mycroft.js');
+var mycroft = require('mycroft');
 var client = mycroft.Mycroft('barcode', './app.json', 'localhost', 1847);
 var verified = false;
 
