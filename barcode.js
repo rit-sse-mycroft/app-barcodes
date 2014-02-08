@@ -1,8 +1,8 @@
 var mycroft = require('mycroft');
 var client = mycroft.Mycroft('barcode', './app.json', 'localhost', 1847);
-var verified = false;
 
 client.on('APP_DEPENDENCY', function(data){
+  client.up();
   promptMessage();
 });
 
