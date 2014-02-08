@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/rit-sse-mycroft/app-barcodes",
   "dependencies": {
-    "mycroft": "0.0.0"
   },
   "devDependencies": {
     "mocha": "~1.17.1"
